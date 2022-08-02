@@ -1,0 +1,102 @@
+html, body {
+  height: 100%;
+  font-family: 'Nunito', Nunito;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: 
+  "main main sidecard"
+  "main main sidecard"
+  "main main sidecard";
+}
+
+.main {
+  grid-area: main;
+}
+
+.name {
+  background: #E2E5ED;
+  border: none;
+  width: 625px;
+  height: 51px;
+  border-radius: 8px;
+}
+
+.mailcont {
+  display: flex;
+  flex-direction: row;
+}
+
+.email {
+  background: #E2E5ED;
+  border: none;
+  width: 301px;
+  height: 51px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.redtext {
+  size: 12px;
+  color: #DD310C;
+}
+
+.password {
+  background: #E2E5ED;
+  border: none;
+  width: 301px;
+  height: 51px;
+  border-radius: 8px;
+}
+
+.bio {
+  background: #E2E5ED;
+  border: none;
+  width: 625px;
+  height: 105px;
+  border-radius: 8px;
+}
+
+.location {
+  color: gray;
+  background: #E2E5ED;
+  border: none;
+  width: 625px;
+  height: 51px;
+  border-radius: 8px;
+}
+
+.sidecard {
+ background-image: url("assets/ski.jpeg");
+ background-position: right; 
+ background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative; 
+ grid-area: sidecard;
+ color: white;
+ font-weight: bold;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.cardtext {
+  margin-top: 202px;
+  margin-left: 111px;
+  font-size: 30px;
+}
+
+.reset {
+  background: white;
+  border-radius: 8px;
+  width: 300px;
+  height: 32px;
+}
+
+.submit {
+  background: #149770;
+  color: white;
+  border-radius: 8px;
+  width: 300px;
+  height: 32px;
+  border: none;
+}
